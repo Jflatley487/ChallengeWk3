@@ -21,24 +21,37 @@ section {
     display:block;   
     flex-wrap:wrap;
     flex-direction:column;
-    
+}
 
+#sean-bailey {
+    width: 1000px;
 }
 
 img {
     width: 250px;
     height: 250px;
     object-fit: fill;
-    
 }
 
+.bigger-image {
+    width: 1000px;
+    height:750px;
+    background-image: url("https://climbingaway.fr/photos_grimpeurs/1033/smart/Sans_titre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smaller-image {
+    width: 500px;
+    height: 250px;
+    object-fit: fill;
+}
 
 header{
     background-color: gray;
     border-bottom: 10px solid rgb(105, 174, 117);
     line-height: 100px;
     text-align: center;
-    
 }
 
 h1 {
@@ -64,6 +77,17 @@ h1 {
     display: flex;
 }
 
+.whatever {
+    width: 100vw;
+    padding: 0px 100px;
+    /* background-color: #fcf; */
+}
+
+.row-jerome {
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+}
 
 a {
     color:darksalmon;
