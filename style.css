@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+.about-me {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content:space-between;
+
+    /*margin-left: 550px;
+    margin-top: 20px;*/
+}
+
+#about-me-image {
+    object-fit: cover;
+    height: 250px;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+#about-me-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 820px;
+    margin-top: 30px;
+
+}
+
+/*.image-format {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid cadetblue;
+    object-fit: cover;
+    margin-right: 100px;
+    margin-left: 550px;
+
+}*/
+
+
+
+
+body {
+    margin-right:20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*justify-content: flex-start;*/
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right: 100px;
+    margin-top: 50px;
+  
+}
+
+section {
+    display:block;   
+    flex-wrap:wrap;
+    flex-direction:column;
+    
+}
+
+/*.image-format {
+    width: 200;
+    height: 200;
+    object-fit: cover;
+}*/
+
+/*#sean-bailey {
+    width: 1000px;
+}*/
+
+img {
+    width: 250px;
+    height: 150px;
+    object-fit: fill;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.new-photo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    height: 250px;
+    width: 500px;
+}
+
+#sean-bailey2 {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    object-fit: cover;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+/*.bigger-image {
+    display:flex;
+    flex-wrap:wrap;
+    width: 500px;
+    align-items:flex-end;
+    height: 250px;
+    background-image: url(https://www.climbing.com/wp-content/uploads/2018/03/savcumminseditbioday3-02186_gn-web-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}*/
+
+.smaller-image {
+    width: 250px;
+    height: 150x;
+    object-fit: cover;
+    padding: 5px;
+    background-color: cadetblue;
+    
+}
+
+header{
+    background-color: gray;
+    border-bottom: 10px solid rgb(105, 174, 117);
+    line-height: 100px;
+    text-align:left;
+    margin-left: 5px;
+}
+
+h1 {
+    background-color: gray;
+    margin-left:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+
+.section-format {
+    display:flex 50%;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-content:space-between;
+    padding: 20px;
+    align-items:center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.row {
+    display: flex;
+}
+
+.whatever {
+    width: 100vw;
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #fcf; */
+}
+
+.row-jerome {
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+a {
+    color:indianred;
+    background-color: rgb(52, 52, 99);
+    text-decoration: none;
+}
+
+/*h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:indianred;
+    text-align: left;
+}*/
+
+#contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:indianred;
+    text-align: left;
+    margin-right: 20px;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 44, 161);
+    background-color: cadetblue;
+}
+
+#header-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:indianred;
+    margin-right: 500px;
+    margin-left: 0px;
+    font-size: 200%;
+    /*background-color: cadetblue;*/
+}
+
+nav {
+    display: flex;
+    color: rgb(52, 52, 99);
+    background-color: rgb(52, 52, 99);
+    justify-content: right;
+    border-bottom: 10px solid cadetblue;
+    border-top: 10px solid cadetblue;
+    margin-left:5px;
+    margin-right:0px;
+    margin-bottom: 10px;
+}
+
+ul, li {
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(52, 52, 99);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+footer {
+    margin-top: 20px;
+}
+@media screen and (max-width: 992px) {
+    .column {
+      width: 100%;
+    }
+  }
+
