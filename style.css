@@ -2,76 +2,103 @@
     box-sizing: border-box;
 }
 
+.container {
+    display:flex;
+    justify-content: center;
+   
+}
+
+.sidebar {
+    display:flex;
+    justify-content: right;
+    align-items:flex-end;
+    flex-direction:column;
+    width:15%;
+    background-color:azure;
+    border-right: 5px solid cadetblue;
+
+}
+
+#aboutme-side {
+    margin-top:50px;
+    margin-bottom: 100px;
+    padding:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:200%;
+}
+
+#work-side {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:250px;
+    font-size:200%;
+    padding:20px;
+
+}
+
+#contactme-side {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    padding:20px;
+    margin-top: 900px;
+    text-align: right;
+}
+
+
+.main-content {
+    width:85%;
+    margin-left: -150px;
+}
+
 .about-me {
     display:flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
     align-content:space-between;
+    margin-top: 75px;
+    margin-left: 200px;
 
-    /*margin-left: 550px;
-    margin-top: 20px;*/
+    
 }
 
 #about-me-image {
     object-fit: cover;
-    height: 250px;
+    height: 350px;
     padding: 5px;
     background-color: cadetblue;
+    margin-left:100px;
+   
 }
 
 #about-me-text {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 820px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 30px;
+    font-size: 120%;
+    margin-bottom: -50px;
 
 }
-
-/*.image-format {
-    display: flex;
-    flex-wrap: wrap;
-    border: 5px solid cadetblue;
-    object-fit: cover;
-    margin-right: 100px;
-    margin-left: 550px;
-
-}*/
-
-
-
 
 body {
     margin-right:20px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color:azure;
     /*justify-content: flex-start;*/
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
-    margin-right: 100px;
+    justify-content: flex-start;
+    margin-right: 50px;
     margin-top: 50px;
+    margin-left: 50px;
   
 }
 
-section {
-    display:block;   
-    flex-wrap:wrap;
-    flex-direction:column;
-    
-}
 
-/*.image-format {
-    width: 200;
-    height: 200;
-    object-fit: cover;
-}*/
-
-/*#sean-bailey {
-    width: 1000px;
-}*/
 
 img {
     width: 250px;
@@ -82,107 +109,94 @@ img {
     border-color: white;
 }
 
-.new-photo {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-end;
-    height: 250px;
-    width: 500px;
+
+
+.text-over-image {
+    position:absolute;
+    font-size: 150%;
+    margin-left: 8px;
 }
 
 #sean-bailey2 {
-    height: 250px;
-    width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-end;
+    height: 400px;
+    width: 800px;
     object-fit: cover;
     padding: 5px;
     background-color: cadetblue;
 }
 
-/*.bigger-image {
-    display:flex;
+#sean-bailey2:hover {
+    background-color: palegreen;
+}
+
+.sbDiv {
+    display: flex;
     flex-wrap:wrap;
-    width: 500px;
+    flex-direction: column;
     align-items:flex-end;
-    height: 250px;
-    background-image: url(https://www.climbing.com/wp-content/uploads/2018/03/savcumminseditbioday3-02186_gn-web-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}*/
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-left:100px;
+
+}
+
+.smaller-image:hover {
+    background-color: palegreen;
+}
 
 .smaller-image {
-    width: 250px;
-    height: 150x;
+    width: 400px;
+    height: 275px;
     object-fit: cover;
     padding: 5px;
     background-color: cadetblue;
     
+}
+h1 {
+    margin-left:50px;
+    margin-right: 1500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+    padding:0;
+    background-color:cadetblue;
+    
+
 }
 
 header{
-    background-color: gray;
-    border-bottom: 10px solid rgb(105, 174, 117);
-    line-height: 100px;
-    text-align:left;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/547b278ee4b09bed66b3d94b/1470427386607-3M6LQAGTTX9P4QPDJCDL/image-asset.jpeg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size:cover;
     margin-left: 5px;
 }
 
-h1 {
-    background-color: gray;
-    margin-left:20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
 
 
 
-.section-format {
-    display:flex 50%;
-    flex-wrap:wrap;
-    flex-direction:column;
-    align-content:space-between;
-    padding: 20px;
-    align-items:center;
-    border-style: solid;
-    border-width: 2px;
-}
 
-.row {
-    display: flex;
-}
-
-.whatever {
+/*.whatever {
     width: 100vw;
     padding: 0px 100px;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: #fcf; */
-}
+    
+}*/
 
 .row-jerome {
-    width: 100%;
     display: flex;
-    align-content: space-between;
+    align-content: space-around;
     flex-wrap: wrap;
     justify-content: flex-end;
+    margin-right: 100px;
 }
 
 a {
     color:indianred;
-    background-color: rgb(52, 52, 99);
     text-decoration: none;
 }
 
-/*h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:indianred;
-    text-align: left;
-}*/
 
 #contact {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -192,9 +206,13 @@ a {
 }
 
 h3 {
+    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(44, 44, 161);
+    color: black;
     background-color: cadetblue;
+    margin-bottom:3px;
+    
+    
 }
 
 #header-name {
@@ -206,10 +224,9 @@ h3 {
     /*background-color: cadetblue;*/
 }
 
-nav {
+.nav-head {
     display: flex;
-    color: rgb(52, 52, 99);
-    background-color: rgb(52, 52, 99);
+    background-color:gainsboro;
     justify-content: right;
     border-bottom: 10px solid cadetblue;
     border-top: 10px solid cadetblue;
@@ -218,21 +235,181 @@ nav {
     margin-bottom: 10px;
 }
 
-ul, li {
+#namehead {
+    color: indianred;
+    padding-right: 850px;
+    
+  
+    
+}
+
+li:hover {
+    background-color:mediumspringgreen;
+}
+
+  ul, li {
     display: flex;
+    flex-wrap: wrap;
     margin-right: 10px;
     padding: 10px;
-    background-color: rgb(52, 52, 99);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
 
 }
 
-footer {
-    margin-top: 20px;
+
+.foot-style {
+    margin-top: 75px;
+    background-color: azure;
+    font-size:120%;
+    justify-content: right;
+    margin-right:150px;
+    margin-left:150px;
+    text-decoration: underline;
 }
-@media screen and (max-width: 992px) {
-    .column {
-      width: 100%;
+
+@media screen and (max-width: 1189px) {
+    #sean-bailey2 {
+        width: 400px;
+        height: 275px;
     }
-  }
+    #work {
+        flex-direction: column;
+        margin-left:200px;
+    }
+    .about-me {
+        flex-direction: column-reverse;
+        font-size: 75%;
+        justify-content: flex-end;
+    }
+}
+ 
+    @media screen and (max-width: 820px) {
+        #sean-bailey2 {
+            width: 400px;
+            height: 275px;
+            justify-content: center;
+        }
+        
+        .sbDiv {
+            margin-left:auto;
+        }
+        
+        #work {
+            flex-direction: column;
+            margin-left:auto;
+            margin-right:-75px
+        }
+        .about-me {
+            flex-direction: column-reverse;
+            font-size: 75%;
+            margin-top: -1px;
+            margin-bottom: 1px;
+        }
+        #about-me-text {
+            margin-right:-80px;
+            margin-left:-20px;
+        }
 
+        #contact-me {
+            margin-left: 250x;
+            margin-right: -220px;
+            font-size: 80%;
+        }
+
+        #contactme-side {
+           margin-top: 1300px;
+
+        }
+    }
+
+        @media screen and (max-width: 414px) {
+            .sidebar {
+                width:5%;
+            }
+            
+            .nav-head {
+                margin-right: -40px;
+                margin-left: -10px;
+                font-size: 80%;
+                height:150px
+            }
+            
+            header {
+                line-height: 50px;
+                font-size: 60%;
+                margin-right: -35px;
+                margin-left: -20px;
+                margin-bottom: -150px;
+                margin-top: -15px;
+            }
+
+            #about-me-image {
+                height: 150px;
+                margin-left: -25px;
+            }
+
+            #sean-bailey2 {
+                width: 250px;
+                height: 150px;
+                justify-content: center;
+            }
+            
+            .smaller-image {
+                width: 250px;
+                height: 150px;
+            }
+
+            .text-over-image {
+                font-size: 80%;
+            }
+            
+            .sbDiv {
+                margin-left:auto;
+            }
+            
+            #work {
+                flex-direction: column;
+                margin-left:auto;
+                margin-right:-165px
+            }
+            .about-me {
+                flex-direction: column-reverse;
+                font-size: 75%;
+                margin-top: -1px;
+                margin-bottom: 1px;
+            }
+            #about-me-text {
+                margin-right:-80px;
+                margin-left:-20px;
+            }
+    
+            #contact-me {
+                margin-left: 100px;
+                margin-right: -220px;
+                font-size: 80%;
+                padding: -2px;
+                align-items: left;
+            }
+
+    
+            #contactme-side {
+               margin-top: 700px;
+               font-size: 120%;
+    
+            }
+
+            #work-side {
+                font-size: 120%;
+            }
+
+            #aboutme-side {
+                font-size: 120%;
+            }
+
+            .main-content {
+                width:95%;
+            }
+   
+
+  }
