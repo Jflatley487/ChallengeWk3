@@ -125,10 +125,13 @@ img {
     background-color: cadetblue;
 }
 
+<<<<<<< HEAD
 #sean-bailey2:hover {
     background-color: palegreen;
 }
 
+=======
+>>>>>>> 9c0561890cbaf4e0fec3a8d42b2207cc39fe502e
 .sbDiv {
     display: flex;
     flex-wrap:wrap;
@@ -140,9 +143,12 @@ img {
 
 }
 
+<<<<<<< HEAD
 .smaller-image:hover {
     background-color: palegreen;
 }
+=======
+>>>>>>> 9c0561890cbaf4e0fec3a8d42b2207cc39fe502e
 
 .smaller-image {
     width: 400px;
@@ -243,11 +249,15 @@ h3 {
     
 }
 
+<<<<<<< HEAD
 li:hover {
     background-color:mediumspringgreen;
 }
 
   ul, li {
+=======
+ul, li {
+>>>>>>> 9c0561890cbaf4e0fec3a8d42b2207cc39fe502e
     display: flex;
     flex-wrap: wrap;
     margin-right: 10px;
@@ -272,6 +282,7 @@ li:hover {
     #sean-bailey2 {
         width: 400px;
         height: 275px;
+<<<<<<< HEAD
     }
     #work {
         flex-direction: column;
@@ -411,3 +422,11 @@ li:hover {
    
 
   }
+=======
+    }
+    .row-jerome {
+        flex-direction: column;
+    }
+
+  }
+>>>>>>> 9c0561890cbaf4e0fec3a8d42b2207cc39fe502e
